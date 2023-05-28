@@ -11,14 +11,49 @@
 		26A84E502A07F7CD00AE0D58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A84E4F2A07F7CD00AE0D58 /* ContentView.swift */; };
 		26A84E522A07F7CF00AE0D58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A84E512A07F7CF00AE0D58 /* Assets.xcassets */; };
 		26A84E552A07F7CF00AE0D58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A84E542A07F7CF00AE0D58 /* Preview Assets.xcassets */; };
+		26A84E5C2A07F9CF00AE0D58 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A84E5B2A07F9CF00AE0D58 /* TopView.swift */; };
+		26A84E5E2A07F9DE00AE0D58 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A84E5D2A07F9DE00AE0D58 /* SettingsView.swift */; };
+		26A84E602A07F9E400AE0D58 /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A84E5F2A07F9E400AE0D58 /* PrivacyView.swift */; };
+		26A84E622A07F9EE00AE0D58 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A84E612A07F9EE00AE0D58 /* AuthenticationViewModel.swift */; };
+		26A84E642A07F9F400AE0D58 /* TermsOfServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A84E632A07F9F400AE0D58 /* TermsOfServiceView.swift */; };
+		26A84E662A07F9FA00AE0D58 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A84E652A07F9FA00AE0D58 /* PieChartView.swift */; };
+		26A84E682A07FA0500AE0D58 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A84E672A07FA0500AE0D58 /* HelpView.swift */; };
+		26A84E6A2A07FA1100AE0D58 /* SubscriptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A84E692A07FA1100AE0D58 /* SubscriptionManager.swift */; };
+		26A84E6C2A07FA1700AE0D58 /* CountTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A84E6B2A07FA1700AE0D58 /* CountTimer.swift */; };
+		26A84E6E2A07FA1C00AE0D58 /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A84E6D2A07FA1C00AE0D58 /* PostListView.swift */; };
+		26A84E702A07FA2700AE0D58 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A84E6F2A07FA2600AE0D58 /* AuthManager.swift */; };
+		26A84E722A07FA2C00AE0D58 /* PostAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A84E712A07FA2C00AE0D58 /* PostAdd.swift */; };
+		26A84E742A07FA3200AE0D58 /* MemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A84E732A07FA3200AE0D58 /* MemoView.swift */; };
+		26A84E762A07FA3600AE0D58 /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A84E752A07FA3600AE0D58 /* TimeView.swift */; };
+		26A84E7A2A07FDF200AE0D58 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26A84E792A07FDF200AE0D58 /* GoogleService-Info.plist */; };
+		EC0A12B81A8C7F4B4599FDFF /* Pods_BuildTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A693401BACA7426A77C04A /* Pods_BuildTimer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22A693401BACA7426A77C04A /* Pods_BuildTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuildTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26A84E4A2A07F7CD00AE0D58 /* BuildTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuildTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26A84E4D2A07F7CD00AE0D58 /* BuildTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildTimerApp.swift; sourceTree = "<group>"; };
 		26A84E4F2A07F7CD00AE0D58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		26A84E512A07F7CF00AE0D58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26A84E542A07F7CF00AE0D58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		26A84E5B2A07F9CF00AE0D58 /* TopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		26A84E5D2A07F9DE00AE0D58 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		26A84E5F2A07F9E400AE0D58 /* PrivacyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+		26A84E612A07F9EE00AE0D58 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		26A84E632A07F9F400AE0D58 /* TermsOfServiceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsOfServiceView.swift; sourceTree = "<group>"; };
+		26A84E652A07F9FA00AE0D58 /* PieChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		26A84E672A07FA0500AE0D58 /* HelpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		26A84E692A07FA1100AE0D58 /* SubscriptionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionManager.swift; sourceTree = "<group>"; };
+		26A84E6B2A07FA1700AE0D58 /* CountTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountTimer.swift; sourceTree = "<group>"; };
+		26A84E6D2A07FA1C00AE0D58 /* PostListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
+		26A84E6F2A07FA2600AE0D58 /* AuthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		26A84E712A07FA2C00AE0D58 /* PostAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostAdd.swift; sourceTree = "<group>"; };
+		26A84E732A07FA3200AE0D58 /* MemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoView.swift; sourceTree = "<group>"; };
+		26A84E752A07FA3600AE0D58 /* TimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
+		26A84E792A07FDF200AE0D58 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		26A84E7B2A08046500AE0D58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FE3781594C046C3479C63CC /* Pods-BuildTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuildTimer.debug.xcconfig"; path = "Target Support Files/Pods-BuildTimer/Pods-BuildTimer.debug.xcconfig"; sourceTree = "<group>"; };
+		A4F4DAC1FFD7EA8E135BBB20 /* Pods-BuildTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuildTimer.release.xcconfig"; path = "Target Support Files/Pods-BuildTimer/Pods-BuildTimer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC0A12B81A8C7F4B4599FDFF /* Pods_BuildTimer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +73,8 @@
 			children = (
 				26A84E4C2A07F7CD00AE0D58 /* BuildTimer */,
 				26A84E4B2A07F7CD00AE0D58 /* Products */,
+				6826F5831727247E8290A993 /* Pods */,
+				685E77714D6FE3D993F5A373 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +91,22 @@
 			children = (
 				26A84E4D2A07F7CD00AE0D58 /* BuildTimerApp.swift */,
 				26A84E4F2A07F7CD00AE0D58 /* ContentView.swift */,
+				26A84E5B2A07F9CF00AE0D58 /* TopView.swift */,
+				26A84E5D2A07F9DE00AE0D58 /* SettingsView.swift */,
+				26A84E5F2A07F9E400AE0D58 /* PrivacyView.swift */,
+				26A84E612A07F9EE00AE0D58 /* AuthenticationViewModel.swift */,
+				26A84E632A07F9F400AE0D58 /* TermsOfServiceView.swift */,
+				26A84E652A07F9FA00AE0D58 /* PieChartView.swift */,
+				26A84E672A07FA0500AE0D58 /* HelpView.swift */,
+				26A84E692A07FA1100AE0D58 /* SubscriptionManager.swift */,
+				26A84E6B2A07FA1700AE0D58 /* CountTimer.swift */,
+				26A84E6D2A07FA1C00AE0D58 /* PostListView.swift */,
+				26A84E6F2A07FA2600AE0D58 /* AuthManager.swift */,
+				26A84E712A07FA2C00AE0D58 /* PostAdd.swift */,
+				26A84E732A07FA3200AE0D58 /* MemoView.swift */,
+				26A84E752A07FA3600AE0D58 /* TimeView.swift */,
+				26A84E792A07FDF200AE0D58 /* GoogleService-Info.plist */,
+				26A84E7B2A08046500AE0D58 /* Info.plist */,
 				26A84E512A07F7CF00AE0D58 /* Assets.xcassets */,
 				26A84E532A07F7CF00AE0D58 /* Preview Content */,
 			);
@@ -67,6 +121,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		6826F5831727247E8290A993 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FE3781594C046C3479C63CC /* Pods-BuildTimer.debug.xcconfig */,
+				A4F4DAC1FFD7EA8E135BBB20 /* Pods-BuildTimer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		685E77714D6FE3D993F5A373 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22A693401BACA7426A77C04A /* Pods_BuildTimer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26A84E582A07F7CF00AE0D58 /* Build configuration list for PBXNativeTarget "BuildTimer" */;
 			buildPhases = (
+				EFA904A2ACD1E876E1809A97 /* [CP] Check Pods Manifest.lock */,
 				26A84E462A07F7CD00AE0D58 /* Sources */,
 				26A84E472A07F7CD00AE0D58 /* Frameworks */,
 				26A84E482A07F7CD00AE0D58 /* Resources */,
+				7E2787B1EA46F3C49AD8E537 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -104,11 +177,12 @@
 			};
 			buildConfigurationList = 26A84E452A07F7CD00AE0D58 /* Build configuration list for PBXProject "BuildTimer" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = ja;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 26A84E412A07F7CD00AE0D58;
 			productRefGroup = 26A84E4B2A07F7CD00AE0D58 /* Products */;
@@ -126,19 +200,76 @@
 			buildActionMask = 2147483647;
 			files = (
 				26A84E552A07F7CF00AE0D58 /* Preview Assets.xcassets in Resources */,
+				26A84E7A2A07FDF200AE0D58 /* GoogleService-Info.plist in Resources */,
 				26A84E522A07F7CF00AE0D58 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7E2787B1EA46F3C49AD8E537 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BuildTimer/Pods-BuildTimer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BuildTimer/Pods-BuildTimer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BuildTimer/Pods-BuildTimer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFA904A2ACD1E876E1809A97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuildTimer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		26A84E462A07F7CD00AE0D58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26A84E662A07F9FA00AE0D58 /* PieChartView.swift in Sources */,
+				26A84E622A07F9EE00AE0D58 /* AuthenticationViewModel.swift in Sources */,
 				26A84E502A07F7CD00AE0D58 /* ContentView.swift in Sources */,
+				26A84E762A07FA3600AE0D58 /* TimeView.swift in Sources */,
+				26A84E702A07FA2700AE0D58 /* AuthManager.swift in Sources */,
+				26A84E5E2A07F9DE00AE0D58 /* SettingsView.swift in Sources */,
+				26A84E682A07FA0500AE0D58 /* HelpView.swift in Sources */,
+				26A84E5C2A07F9CF00AE0D58 /* TopView.swift in Sources */,
+				26A84E6A2A07FA1100AE0D58 /* SubscriptionManager.swift in Sources */,
 				26A84E4E2A07F7CD00AE0D58 /* BuildTimerApp.swift in Sources */,
+				26A84E642A07F9F400AE0D58 /* TermsOfServiceView.swift in Sources */,
+				26A84E742A07FA3200AE0D58 /* MemoView.swift in Sources */,
+				26A84E602A07F9E400AE0D58 /* PrivacyView.swift in Sources */,
+				26A84E6E2A07FA1C00AE0D58 /* PostListView.swift in Sources */,
+				26A84E6C2A07FA1700AE0D58 /* CountTimer.swift in Sources */,
+				26A84E722A07FA2C00AE0D58 /* PostAdd.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,24 +392,27 @@
 		};
 		26A84E592A07F7CF00AE0D58 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FE3781594C046C3479C63CC /* Pods-BuildTimer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BuildTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = F3XS565TSX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BuildTimer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "Swift-Beginners-app.BuildTimer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -289,24 +423,27 @@
 		};
 		26A84E5A2A07F7CF00AE0D58 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4F4DAC1FFD7EA8E135BBB20 /* Pods-BuildTimer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BuildTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = F3XS565TSX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BuildTimer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "Swift-Beginners-app.BuildTimer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
