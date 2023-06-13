@@ -7,7 +7,8 @@
 
 import SwiftUI
 import Firebase
-
+import Combine
+import StoreKit
 
 struct Post: Identifiable, Hashable {
     var id: String// = UUID().uuidString
@@ -46,11 +47,17 @@ class TimeData: ObservableObject {
 
 class PostsViewModel: ObservableObject {
     @Published var posts: [Post] = []
-    let userID: String = AuthManager.shared.user?.uid ?? ""
+    var userID: String = AuthManager.shared.user?.uid ?? ""
     private let databaseRef = Database.database().reference()
-    
+    private var cancellable: AnyCancellable?
+
+
     init() {
         fetchPosts()
+        cancellable = AuthManager.shared.$user
+            .sink(receiveValue: { [weak self] user in
+                self?.userID = user?.uid ?? ""
+            })
     }
     
     private func fetchPosts() {
@@ -66,6 +73,9 @@ class PostsViewModel: ObservableObject {
                 self.posts = newPosts.sorted(by: { $0.createdAt > $1.createdAt })
             }
         }
+    }
+    deinit {
+        cancellable?.cancel()
     }
 }
 
@@ -154,6 +164,7 @@ struct PostListView: View {
                     }
                     Spacer()
                         .onAppear {
+                            promptForReview()
                             databaseRef.child("Posts").observe(.value) { snapshot in
                                 var newPosts: [Post] = []
                                 for child in snapshot.children {
@@ -216,6 +227,17 @@ struct PostListView: View {
             }.background(Color(red: 0.95, green: 0.95, blue: 0.97, opacity: 1.0))
         }
         .navigationViewStyle(StackNavigationViewStyle())
+    }
+    
+    func promptForReview() {
+        let launchCount = UserDefaults.standard.integer(forKey: "launchCount") + 1
+        UserDefaults.standard.set(launchCount, forKey: "launchCount")
+        
+        if launchCount % 5 == 0 {
+            if let scene = UIApplication.shared.connectedScenes.first(where: { $0.activationState == .foregroundActive }) as? UIWindowScene {
+                SKStoreReviewController.requestReview(in: scene)
+            }
+        }
     }
     
     private func progressValue(for post: Post) -> Double {

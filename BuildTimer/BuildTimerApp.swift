@@ -9,14 +9,16 @@ import SwiftUI
 import FirebaseCore
 import FirebaseAuth
 import GoogleSignIn
+import GoogleMobileAds
 //import Stripe
 
 class AppDelegate: NSObject, UIApplicationDelegate {
   func application(_ application: UIApplication,
-                   didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-    FirebaseApp.configure()
-//    StripeAPI.defaultPublishableKey = "rk_test_51N3DcqBO3QEchW1Q27GZPygqldSRkBPqcAkT0kOd41l6CRHYlHNuPwIvrmSgMexgtsQPmZhGuwChPyVpm1TPNssa00zFxIFuXj"
-    return true
+                   didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]?) -> Bool {
+      FirebaseApp.configure()
+
+      GADMobileAds.sharedInstance().start(completionHandler: nil)
+      return true
   }
 }
 
@@ -28,17 +30,9 @@ func application(_ application: UIApplication, open url: URL, options: [UIApplic
 struct BuildTimer: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
-//    init() {
-//        // Stripeの初期化
-//        StripeAPI.defaultPublishableKey = "pk_test_51N3DcqBO3QEchW1QIw7BtlYtoiYGYu4DbPaSeup4D772CTMhah2LCo5A3zFXXtI79Spuk0DSWSFTBWPvQRlbEvjk00Mb0OsBZK"
-//    }
     var body: some Scene {
         WindowGroup {
-//            if Auth.auth().currentUser != nil {
-                TopView()// メイン画面
-//            } else {・
-//                GoogleAuthView() // ログイン画面
-//            }
+                TopView()
         }
     }
 }

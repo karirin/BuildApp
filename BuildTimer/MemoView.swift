@@ -81,6 +81,7 @@ struct MemoView: View {
         }
     }
     
+    
     func saveTimerValueToDatabase() {
         let database = Database.database().reference()
         let timesRef = database.child("times")
