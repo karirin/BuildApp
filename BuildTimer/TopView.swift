@@ -7,7 +7,7 @@ struct AdMobBannerView: UIViewRepresentable {
     func makeUIView(context: Context) -> GADBannerView {
         let banner = GADBannerView(adSize: GADAdSizeBanner) // インスタンスを生成
         // 諸々の設定をしていく
-        banner.adUnitID = "ca-app-pub-4898800212808837~3192676251" // 自身の広告IDに置き換える
+        banner.adUnitID = "ca-app-pub-3940256099942544/2934735716" // 自身の広告IDに置き換える
         banner.rootViewController = UIApplication.shared.windows.first?.rootViewController
         banner.load(GADRequest())
         return banner // 最終的にインスタンスを返す
@@ -23,7 +23,7 @@ struct TopView: View {
         VStack {
             
                 AdMobBannerView()
-                    .frame(height:50)
+                    .frame(height:30)
                 TabView {
                     ZStack {
                         PostListView()
