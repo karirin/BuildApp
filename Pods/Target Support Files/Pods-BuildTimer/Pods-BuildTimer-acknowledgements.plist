@@ -3621,6 +3621,26 @@ FirestoreEncoder
 		</dict>
 		<dict>
 			<key>FooterText</key>
+			<string>Copyright 2023 Google</string>
+			<key>License</key>
+			<string>Copyright</string>
+			<key>Title</key>
+			<string>Google-Mobile-Ads-SDK</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Copyright 2022 Google</string>
+			<key>License</key>
+			<string>Copyright</string>
+			<key>Title</key>
+			<string>GoogleAppMeasurement</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
 			<string>
                                  Apache License
                            Version 2.0, January 2004
@@ -3828,6 +3848,16 @@ FirestoreEncoder
 			<string>Apache</string>
 			<key>Title</key>
 			<string>GoogleSignIn</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Copyright 2022 Google</string>
+			<key>License</key>
+			<string>Copyright</string>
+			<key>Title</key>
+			<string>GoogleUserMessagingPlatform</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

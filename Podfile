@@ -14,4 +14,5 @@ pod 'FirebaseAuth'
 pod 'GoogleSignIn'
 pod 'Charts'
 pod 'Instructions', '~> 2.0'
+pod 'Google-Mobile-Ads-SDK'
 end
